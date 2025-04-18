@@ -11,9 +11,10 @@ Permite el login de los usuarios que tengan el usuario y contraseña establecido
 
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/cdee2135-f92d-47ee-a170-32d33d5efbb7" />
 
-- Permite ingresar el número de suministro del que se quiere obtener los teléfonos registrados en la bd.
+- Permite ingresar el número de suministro del que se quiere obtener los teléfonos registrados en la base de datos.
 - Muestra la cantidad de búsquedas hecha por usuario, permitiendo realizar 50 diariamente.
 - Genera un registro de cada búsqueda realizada en la aplicación con fecha y hora.
+- Las funcionalidades (búsqueda de números, límite diario) funcionan con lenguaje SQL.
 
 # Conclusión
 La aplicación permitió eliminar las solicitudes manuales y reducir tiempos de respuesta para solicitar el número celular de un cliente (antes se solicitaba por WhatsApp). Además, caba mencionar que este tipo de apliación es altamente escalable de requerir otras funcionalidades.
